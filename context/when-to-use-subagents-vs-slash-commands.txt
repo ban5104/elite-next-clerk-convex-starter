@@ -1,0 +1,18 @@
+When to use agents vs /commands in Claude:
+
+**Agents excel at specialized roles:**
+• Code reviewer with Rust principles
+• UI critic with Apple's HIG guidelines
+• Security auditor for OWASP compliance
+• Test writer who thinks edge cases
+• Documentation expert who writes like Stripe
+
+**Commands orchestrate the symphony:**
+• Chain agents: plan → build → review → deploy
+• Run parallel: 5 agents fix 5 different bugs simultaneously  
+• Mix perspectives: TypeScript agent reviews Ruby code
+• Create workflows: "/fix-all" spawns specialized fixers
+
+Agents can't call agents. This forces clean architecture.
+
+Think of agents as world-class specialists. Commands are the directors who know exactly when to bring each expert on stage.
